@@ -1,28 +1,40 @@
 # Card Atlas
 
-A static personal dashboard for six credit cards, 46 sourced benefits and four credit-limit pools. All styles, scripts and offer data are in `index.html`. No external runtime, backend or password is needed.
+A responsive static wallet for six credit cards and four shared/individual limit pools. Hosted by GitHub Pages from `main`, repository root; commits automatically republish.
 
-## Publish
+## Browse
 
-GitHub Pages uses the `main` branch and repository root. It automatically republishes after commits.
+- **Theme → Device** follows the phone/computer's light or dark appearance by default. Light/Dark overrides are stored only on that device.
+- **Domestic / International** separates India/everyday benefits from verified overseas perks and costs. Fees are labelled as costs; unverified items have explicit notices.
+- **Merchant** or a quick merchant button shows only directly linked benefits. Searching an exact merchant such as Swiggy uses the same explicit mapping. Multi-brand cashback becomes a merchant-specific title, while retaining the shared cap.
+- **Card benefits** groups results by card. Card, region, merchant and category filters can be combined. Switching region clears merchant/category/search filters but keeps the selected card.
+- Caps, coupons and conditions are readable in each result. Full details provide official sources.
+
+## Update offers with the skill
+
+Open this repository in Codex and ask:
+
+> Use $update-card-offers to refresh all card offers from official bank and merchant sources and publish the update.
+
+For a focused refresh:
+
+> Use $update-card-offers to check Swiggy offers for all my cards.
+
+The repository skill is `.agents/skills/update-card-offers/SKILL.md`. `AGENTS.md` also directs agents to it. In a chat tool that does not discover repository skills, ask it to read that exact file in this repository and follow it. Storing a repository skill does not install a personal ChatGPT plugin or run an automatic update service.
+
+`offers.json` is the canonical dataset. Keep source links, verification dates, geography and direct merchant tags accurate. Never set a fresh review date without checking. Run `python3 validate.py` and `node --check app.js` before publishing. No bundling or build step is needed.
 
 ## Update limits
 
-Click **Edit limits** on the website, sign into GitHub, edit `limits.json`, and commit to `main`. Update the date and use nonnegative whole rupees without commas. GitHub write permissions protect published edits; visitors cannot change your repository.
+Click **Edit limits**, sign in to GitHub, edit the relevant amount in root `limits.json`, update the date, then commit. Only accounts with write permission can change the published amounts. The UI contains no credentials or simulated password protection.
 
-- `hdfc`: one shared pool for Millennia and Regalia Gold.
-- `pixel`: PIXEL Play only.
-- `axis`: one shared pool for Airtel Axis and My Zone.
-- `au`: ixigo AU only.
+- `hdfc`: Millennia + Regalia Gold, counted once.
+- `pixel`: PIXEL Play.
+- `axis`: Airtel Axis + My Zone, counted once.
+- `au`: ixigo AU.
 
-The dashboard does not change bank limits or track balances. Invalid JSON or invalid amounts produce an unavailable-data notice instead of fabricated limits. Keep the file valid; revert a mistaken commit using GitHub if needed.
+Use nonnegative whole rupees without commas. The dashboard does not change bank limits or track available balance. Do not change these values during an offer refresh.
 
-## Offers and coverage
+## Coverage
 
-Reviewed on 2 October 2026 against official bank and card-partner sources. This is a manual snapshot, not a live or exhaustive personalised offer feed. Source links, known expiry dates and uncertainty labels appear on the website. PIXEL pack selections, card networks and personal fee arrangements are not assumed. Update the embedded offer data after rechecking official sources.
-
-Known conflicts: Millennia lounge choice; Regalia cash redemption; ixigo UPI rates and train platform quotas. These are labelled in the UI. Dated 2026 changes are used for Airtel cashback and Regalia/AU lounge thresholds.
-
-## Validation
-
-Data and JavaScript logic checks passed for shared-limit totals, filtering, expiry, invalid-limit rejection and navigation. Responsive layouts cover phones, tablets and desktops. Check the deployed page in your browser; every physical device has not been tested.
+This is a manually researched snapshot, not an exhaustive or live personalized feed. Check current bank/merchant terms before purchase. Networks, personal eligibility and PIXEL selections remain unknown unless supplied. International mode does not infer all base rewards abroad. Known uncertainties are labelled. PIXEL base rewards now reflect the 15,000-CashPoint fair-use ceiling in the August 2026 terms.
