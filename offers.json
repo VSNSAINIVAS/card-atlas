@@ -1,0 +1,1175 @@
+{
+  "checked": "2026-10-02",
+  "sources": {
+    "millennia": {
+      "title": "HDFC · Millennia product guide",
+      "url": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+      "checked": "2026-10-02"
+    },
+    "millenniaTerms": {
+      "title": "HDFC · Millennia reward terms",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/Terms-and-Conditions-Millennia-Credit-Card.pdf",
+      "checked": "2026-10-02"
+    },
+    "regalia": {
+      "title": "HDFC · Regalia Gold product guide",
+      "url": "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+      "checked": "2026-10-02"
+    },
+    "regaliaChanges": {
+      "title": "HDFC · Regalia Gold 2026 changes",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/common/Credit-Cards/Regalia-Gold-Product-feature-change.pdf",
+      "checked": "2026-10-02"
+    },
+    "pixel": {
+      "title": "HDFC · PIXEL Play product guide",
+      "url": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+      "checked": "2026-10-02"
+    },
+    "pixelTerms": {
+      "title": "HDFC · PIXEL Play reward terms",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/pixel-play-credit-card/terms-and-conditions-zappmax-credit-card1.pdf",
+      "checked": "2026-10-02"
+    },
+    "airtel": {
+      "title": "Axis · Airtel product guide",
+      "url": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+      "checked": "2026-10-02"
+    },
+    "airtelTerms": {
+      "title": "Axis · Airtel cashback terms, April 2026",
+      "url": "https://www.axis.bank.in/docs/default-source/default-document-library/credit-cards/terms-and-conditions-for-cashback-for-airtel-axis-bank-credit-card.pdf?sfvrsn=3192829c_10",
+      "checked": "2026-10-02"
+    },
+    "myzone": {
+      "title": "Axis · My Zone product guide",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+      "checked": "2026-10-02"
+    },
+    "au": {
+      "title": "AU · ixigo product guide",
+      "url": "https://www.au.bank.in/personal-banking/credit-cards/ixigo-au-credit-card",
+      "checked": "2026-10-02"
+    },
+    "auLounge": {
+      "title": "AU · Domestic lounge rules, April 2026",
+      "url": "https://www.au.bank.in/pdfs/revision-of-ixigo-au-credit-card-usage-tnc_Lounge.pdf",
+      "checked": "2026-10-02"
+    },
+    "ixigo": {
+      "title": "ixigo · Card benefits",
+      "url": "https://www.ixigo.com/travel-credit-card",
+      "checked": "2026-10-02"
+    },
+    "ixigoOffers": {
+      "title": "ixigo · Travel offer terms",
+      "url": "https://www.ixigo.com/offers/ixigoccfly",
+      "checked": "2026-10-02"
+    },
+    "ixigoCompare": {
+      "title": "ixigo · Visa and RuPay benefits",
+      "url": "https://www.ixigo.com/travel-credit-card/comparison",
+      "checked": "2026-10-02"
+    },
+    "regaliaFees": {
+      "title": "HDFC · Regalia Gold fees",
+      "url": "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card/fees-and-charges",
+      "checked": "2026-10-02"
+    },
+    "pixelFees": {
+      "title": "HDFC · PIXEL Play fees",
+      "url": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card/fees-and-charges",
+      "checked": "2026-10-02"
+    },
+    "hdfcMITC": {
+      "title": "HDFC · September 2026 terms",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+      "checked": "2026-10-02"
+    },
+    "pixelMITC": {
+      "title": "HDFC · PIXEL August 2026 terms",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/MITC-PIXEL-Credit-Card-12Aug-26-1.pdf",
+      "checked": "2026-10-02"
+    }
+  },
+  "cards": [
+    {
+      "id": "millennia",
+      "bank": "HDFC Bank",
+      "name": "Millennia",
+      "tagline": "Everyday shopping",
+      "pool": "hdfc",
+      "theme": "blue"
+    },
+    {
+      "id": "regalia",
+      "bank": "HDFC Bank",
+      "name": "Regalia Gold",
+      "tagline": "Travel & experiences",
+      "pool": "hdfc",
+      "theme": "gold"
+    },
+    {
+      "id": "pixel",
+      "bank": "HDFC Bank",
+      "name": "PIXEL Play",
+      "tagline": "Pick your rewards",
+      "pool": "pixel",
+      "theme": "purple"
+    },
+    {
+      "id": "airtel",
+      "bank": "Axis Bank",
+      "name": "Airtel Axis",
+      "tagline": "Bills & connectivity",
+      "pool": "axis",
+      "theme": "red"
+    },
+    {
+      "id": "myzone",
+      "bank": "Axis Bank",
+      "name": "My Zone",
+      "tagline": "Food & entertainment",
+      "pool": "axis",
+      "theme": "berry"
+    },
+    {
+      "id": "ixigo",
+      "bank": "AU Small Finance Bank",
+      "name": "ixigo AU",
+      "tagline": "Journeys & beyond",
+      "pool": "au",
+      "theme": "orange"
+    }
+  ],
+  "offers": [
+    {
+      "id": "o1",
+      "card": "millennia",
+      "category": "Shopping",
+      "value": "5%",
+      "title": "Ten online brands",
+      "summary": "Earn up to 1,000 CashPoints/month, shared across the ten eligible brands.",
+      "details": "Amazon, Flipkart, Myntra, Tata CLiQ, Swiggy, Zomato, Uber, BookMyShow, Sony LIV and Cult.fit. Eligible direct, non-EMI purchases; merchant identification matters. Vouchers and SmartBuy routing follow different rules.",
+      "source": "millenniaTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Amazon",
+        "Flipkart",
+        "Myntra",
+        "Tata CLiQ",
+        "Swiggy",
+        "Zomato",
+        "Uber",
+        "BookMyShow",
+        "Sony LIV",
+        "Cult.fit"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o2",
+      "card": "millennia",
+      "category": "Rewards",
+      "value": "1%",
+      "title": "Other eligible purchases",
+      "summary": "Separate 1,000-point monthly ceiling.",
+      "details": "Fuel, rent, government, EMI and wallet transactions are excluded. Eligible gift-card purchases fall in this tier. Statement redemption: ₹1 per point, minimum 500 points, maximum 3,000 monthly; ₹50 redemption fee.",
+      "source": "millenniaTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o3",
+      "card": "millennia",
+      "category": "Milestones",
+      "value": "₹1,000",
+      "title": "Quarterly reward choice",
+      "summary": "Spend ₹1 lakh in a calendar quarter.",
+      "details": "The product page offers a ₹1,000 voucher or a lounge voucher. Older reward terms still mention lounge withdrawal; verify the available choice in your bank redemption portal.",
+      "source": "millennia",
+      "code": "",
+      "expiry": "",
+      "flag": "Check lounge choice",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o4",
+      "card": "millennia",
+      "category": "Dining",
+      "value": "10%",
+      "title": "Swiggy Dineout",
+      "summary": "Additional discount with HDFCCARDS.",
+      "details": "Restaurant eligibility, booking conditions and caps follow the linked merchant terms. Verify the final discount before paying.",
+      "source": "millennia",
+      "code": "HDFCCARDS",
+      "expiry": "",
+      "flag": "Check merchant cap",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Swiggy"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o5",
+      "card": "millennia",
+      "category": "Fuel",
+      "value": "1%",
+      "title": "Fuel surcharge relief",
+      "summary": "₹400–₹5,000 per purchase.",
+      "details": "Waiver ceiling: ₹250 per statement cycle. This reduces surcharge; it is not cashback on the fuel amount.",
+      "source": "millenniaTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o6",
+      "card": "millennia",
+      "category": "Welcome",
+      "value": "1,000 pts",
+      "title": "Joining reward",
+      "summary": "Available when the joining fee is paid.",
+      "details": "Renewal fees do not earn this joining reward. Your personal fee arrangement has not been supplied.",
+      "source": "millenniaTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o7",
+      "card": "regalia",
+      "category": "Rewards",
+      "value": "5 pts",
+      "title": "Eligible retail purchases",
+      "summary": "For each ₹200 spent; effective 15 May 2026.",
+      "details": "Reward points are not rupees. The revised earn rate replaces the older 4-points-per-₹150 structure.",
+      "source": "regaliaChanges",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o8",
+      "card": "regalia",
+      "category": "Shopping",
+      "value": "5×",
+      "title": "Selected retail partners",
+      "summary": "Accelerated points at selected brands.",
+      "details": "Myntra, Nykaa and Reliance Digital are listed. Partner eligibility and reward ceilings apply; consult the reward terms.",
+      "source": "regalia",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Myntra",
+        "Nykaa",
+        "Reliance Digital"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o9",
+      "card": "regalia",
+      "category": "Lounges",
+      "value": "3 visits",
+      "title": "Domestic airport lounges",
+      "summary": "Each quarter after ₹60,000 prior-quarter spend.",
+      "details": "Effective from July 2026. Check eligible lounges and your entitlement on SmartBuy before travelling.",
+      "source": "regaliaChanges",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o10",
+      "card": "regalia",
+      "category": "Lounges",
+      "value": "6 visits",
+      "title": "International lounges",
+      "summary": "Annual Priority Pass entitlement.",
+      "details": "The 2026 notice retains six overseas visits. Check membership, participating lounges and shared add-on usage before entry.",
+      "source": "regaliaChanges",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "international"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o11",
+      "card": "regalia",
+      "category": "Travel",
+      "value": "2 perks",
+      "title": "Boarding Edge",
+      "summary": "Choose two experiences each calendar quarter.",
+      "details": "Upload your boarding pass on SmartBuy. Options include spa, airport transfer, dining or hotel upgrade; participating partners and voucher conditions apply.",
+      "source": "regaliaChanges",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o12",
+      "card": "regalia",
+      "category": "Milestones",
+      "value": "₹1,500",
+      "title": "Quarterly shopping voucher",
+      "summary": "Reach ₹1.5 lakh in quarterly spending.",
+      "details": "Myntra/Nykaa voucher options are listed. Claim unlocked milestones within 60 days.",
+      "source": "regalia",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Myntra",
+        "Nykaa"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o13",
+      "card": "regalia",
+      "category": "Milestones",
+      "value": "₹10,000",
+      "title": "Annual flight vouchers",
+      "summary": "₹5,000 at each of two spending milestones.",
+      "details": "Reach ₹5 lakh and ₹7.5 lakh in the anniversary year. Each milestone provides a ₹5,000 flight voucher.",
+      "source": "regalia",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o14",
+      "card": "regalia",
+      "category": "Welcome",
+      "value": "2 memberships",
+      "title": "Swiggy One + MMT Black Gold",
+      "summary": "Spend ₹1 lakh within the first 90 days.",
+      "details": "Welcome eligibility is tied to card issuance. This is not an ongoing monthly benefit.",
+      "source": "regalia",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Swiggy",
+        "MakeMyTrip"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit",
+      "merchantTitles": {
+        "Swiggy": "Swiggy One welcome membership",
+        "MakeMyTrip": "MMT Black Gold welcome membership"
+      },
+      "merchantValues": {
+        "Swiggy": "1 membership",
+        "MakeMyTrip": "1 membership"
+      }
+    },
+    {
+      "id": "o15",
+      "card": "regalia",
+      "category": "Rewards",
+      "value": "₹0.50 / pt",
+      "title": "Travel redemption",
+      "summary": "Flights and hotels via SmartBuy.",
+      "details": "Pay at most 70% of the booking with points. The bank page conflicts on cash-redemption value, so no cash value is assumed here.",
+      "source": "regalia",
+      "code": "",
+      "expiry": "",
+      "flag": "Cash value unclear",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o16",
+      "card": "pixel",
+      "category": "Shopping",
+      "value": "5%",
+      "title": "Your two selected packs",
+      "summary": "Combined cap: 500 CashPoints per month.",
+      "details": "Choose two: BookMyShow/Zomato; MakeMyTrip/Uber; Blinkit/Smart Bazaar; Croma/Reliance Digital; Nykaa/Myntra. Your selections are unknown. Pack changes are allowed after three months.",
+      "source": "pixelTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "Your packs not specified",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "BookMyShow",
+        "Zomato",
+        "MakeMyTrip",
+        "Uber",
+        "Blinkit",
+        "Smart Bazaar",
+        "Croma",
+        "Reliance Digital",
+        "Nykaa",
+        "Myntra"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o17",
+      "card": "pixel",
+      "category": "Shopping",
+      "value": "3%",
+      "title": "Your selected online platform",
+      "summary": "500 CashPoints per calendar month.",
+      "details": "Choose one: Amazon, Flipkart or PayZapp. Your selection is unknown. RuPay UPI purchases do not receive this tier.",
+      "source": "pixelTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "Your platform not specified",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Amazon",
+        "Flipkart",
+        "PayZapp"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o18",
+      "card": "pixel",
+      "category": "Travel",
+      "value": "5%",
+      "title": "SmartBuy purchases",
+      "summary": "Separate 500-point monthly cap.",
+      "details": "Eligible categories include flights, hotels, bus, rail, IGP, instant vouchers and Apple Imagine Tresor. Review the linked terms before booking.",
+      "source": "pixelTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "SmartBuy"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o19",
+      "card": "pixel",
+      "category": "Rewards",
+      "value": "1%",
+      "title": "Other eligible spending",
+      "summary": "Up to 15,000 CashPoints per calendar month under the fair-use policy.",
+      "details": "The August 2026 PIXEL terms set a 15,000-CashPoint monthly ceiling for this category, despite the product page’s “unlimited” wording. Fuel, wallet, rent, government, EMI, cash advances and card charges are excluded.",
+      "source": "pixelMITC",
+      "code": "",
+      "expiry": "",
+      "flag": "Fair-use cap applies",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o20",
+      "card": "pixel",
+      "category": "UPI",
+      "value": "1%",
+      "title": "RuPay UPI purchases",
+      "summary": "Only if your PIXEL Play is RuPay.",
+      "details": "Capped at 500 CashPoints monthly. Your card network has not been confirmed.",
+      "source": "pixelTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "Network dependent",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o21",
+      "card": "pixel",
+      "category": "Fuel",
+      "value": "1%",
+      "title": "Fuel surcharge relief",
+      "summary": "₹400–₹5,000 per transaction.",
+      "details": "Maximum ₹250 per statement. This is a surcharge waiver, not a fuel cashback reward.",
+      "source": "pixel",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o22",
+      "card": "airtel",
+      "category": "Bills",
+      "value": "25%",
+      "title": "Airtel bills & recharges",
+      "summary": "Through Airtel Thanks; a variable monthly cap.",
+      "details": "Maximum = twice your 1% base cashback in the same statement month. Includes eligible mobile, broadband, WiFi and DTH bills. Zero base cashback means zero entitlement in this tier.",
+      "source": "airtelTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Airtel"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o23",
+      "card": "airtel",
+      "category": "Bills",
+      "value": "10%",
+      "title": "Utility bills",
+      "summary": "Pay eligible utilities through Airtel Thanks.",
+      "details": "Maximum = your 1% base cashback in the same statement month. Electricity and gas are examples; excluded transaction categories still apply.",
+      "source": "airtelTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Airtel"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o24",
+      "card": "airtel",
+      "category": "Rewards",
+      "value": "1%",
+      "title": "Eligible everyday purchases",
+      "summary": "Uncapped base cashback.",
+      "details": "This amount sets both bill-payment caps. Excluded merchant categories and EMI do not qualify. Revised cashback follows the bank’s 60-day credit cycle.",
+      "source": "airtelTerms",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o25",
+      "card": "airtel",
+      "category": "Welcome",
+      "value": "₹250",
+      "title": "Amazon welcome voucher",
+      "summary": "First purchase within 30 days of issuance.",
+      "details": "Not available on cards issued without a joining fee.",
+      "source": "airtel",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Amazon"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o26",
+      "card": "airtel",
+      "category": "Fuel",
+      "value": "1%",
+      "title": "Fuel surcharge relief",
+      "summary": "Available on qualifying fuel purchases.",
+      "details": "The bank lists the waiver, but the current transaction band and ceiling need confirmation in its fee schedule.",
+      "source": "airtel",
+      "code": "",
+      "expiry": "",
+      "flag": "Check waiver cap",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o27",
+      "card": "myzone",
+      "category": "Dining",
+      "value": "₹120",
+      "title": "Swiggy food delivery",
+      "summary": "₹500 minimum order; twice per month.",
+      "details": "Eligible restaurants only; Haldiram’s excluded.",
+      "source": "myzone",
+      "code": "AXIS120",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Swiggy"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o28",
+      "card": "myzone",
+      "category": "Entertainment",
+      "value": "BOGO",
+      "title": "District movie tickets",
+      "summary": "Second ticket discount, up to ₹200 monthly.",
+      "details": "Movie spending earns no reward points.",
+      "source": "myzone",
+      "code": "AXIS200",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "District"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o29",
+      "card": "myzone",
+      "category": "Travel",
+      "value": "7% / 18%",
+      "title": "Cleartrip flights & hotels",
+      "summary": "Flights: ₹2,000 cap. Hotels: ₹4,000 cap.",
+      "details": "Each benefit is usable once monthly.",
+      "source": "myzone",
+      "code": "CTAXISMYZONE",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Cleartrip"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o30",
+      "card": "myzone",
+      "category": "Lounges",
+      "value": "1 visit",
+      "title": "Domestic lounge access",
+      "summary": "Each quarter; ₹50,000 in preceding three months.",
+      "details": "Participating lounges and bank eligibility checks apply.",
+      "source": "myzone",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o31",
+      "card": "myzone",
+      "category": "Rewards",
+      "value": "4 pts",
+      "title": "EDGE REWARDS",
+      "summary": "Each ₹200 in qualifying purchases.",
+      "details": "Excludes movies, fuel, insurance, wallets, rent, utilities, jewellery, education, government and EMI.",
+      "source": "myzone",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o32",
+      "card": "myzone",
+      "category": "Milestones",
+      "value": "1,000 pts",
+      "title": "Annual spending milestone",
+      "summary": "₹1.5 lakh in qualifying anniversary-year spending.",
+      "details": "Excluded categories do not count.",
+      "source": "myzone",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o33",
+      "card": "myzone",
+      "category": "Welcome",
+      "value": "Sony LIV",
+      "title": "First-year subscription",
+      "summary": "Annual Premium plan after first purchase within 30 days.",
+      "details": "Issuance and promotional eligibility apply.",
+      "source": "myzone",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "Sony LIV"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o34",
+      "card": "myzone",
+      "category": "Fuel",
+      "value": "1%",
+      "title": "Fuel surcharge relief",
+      "summary": "Purchases from ₹400 to ₹4,000.",
+      "details": "Maximum ₹400 each statement; surcharge GST excluded.",
+      "source": "myzone",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o35",
+      "card": "ixigo",
+      "category": "Travel",
+      "value": "0%",
+      "title": "Foreign-currency markup",
+      "summary": "Zero bank forex markup on eligible foreign-currency spend.",
+      "details": "Currency conversion rates, merchant conversion and other fees can still apply. Check network acceptance; your Visa/RuPay variant is unknown.",
+      "source": "au",
+      "code": "",
+      "expiry": "",
+      "flag": "Check network abroad",
+      "regions": [
+        "international"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o36",
+      "card": "ixigo",
+      "category": "Travel",
+      "value": "10%",
+      "title": "ixigo domestic flights",
+      "summary": "Up to ₹3,000; once monthly.",
+      "details": "Apply the code and pay with ixigo AU. The source lists expiry as 31 December 2026.",
+      "source": "ixigoOffers",
+      "code": "IXIGOCCFLY",
+      "expiry": "2026-12-31",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "ixigo"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o37",
+      "card": "ixigo",
+      "category": "Travel",
+      "value": "10%",
+      "title": "ixigo hotel stays",
+      "summary": "Up to ₹3,000; once monthly.",
+      "details": "Apply the hotel code and check eligible inventory at checkout.",
+      "source": "ixigoOffers",
+      "code": "IXIGOCCSTAY",
+      "expiry": "2026-12-31",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "ixigo"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o38",
+      "card": "ixigo",
+      "category": "Travel",
+      "value": "10%",
+      "title": "ixigo bus bookings",
+      "summary": "Up to ₹300; once monthly.",
+      "details": "Apply the bus code and pay using ixigo AU.",
+      "source": "ixigoOffers",
+      "code": "IXIGOCCBUS",
+      "expiry": "2026-12-31",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "ixigo"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o39",
+      "card": "ixigo",
+      "category": "Travel",
+      "value": "₹0 PG fee",
+      "title": "Train bookings",
+      "summary": "Two waivers per month listed in offer terms.",
+      "details": "The comparison page suggests separate platform allowances. Verify your ixigo/Confirmtkt quota at checkout; do not assume four waivers.",
+      "source": "ixigoOffers",
+      "code": "",
+      "expiry": "2026-12-31",
+      "flag": "Platform quota unclear",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "ixigo",
+        "Confirmtkt"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o40",
+      "card": "ixigo",
+      "category": "Lounges",
+      "value": "2 visits",
+      "title": "Domestic airport lounges",
+      "summary": "Per quarter after ₹50,000 prior-quarter spending.",
+      "details": "Effective 13 April 2026. Primary cardholders only; add-on cards excluded.",
+      "source": "auLounge",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o41",
+      "card": "ixigo",
+      "category": "Lounges",
+      "value": "8 visits",
+      "title": "Railway lounges",
+      "summary": "Annual allowance at participating stations.",
+      "details": "Check current station access and eligibility with AU. The domestic airport spend rule is recorded separately.",
+      "source": "ixigoCompare",
+      "code": "",
+      "expiry": "",
+      "flag": "Check station eligibility",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o42",
+      "card": "ixigo",
+      "category": "Lounges",
+      "value": "1 visit",
+      "title": "International lounge",
+      "summary": "Annual Priority Pass visit listed by AU.",
+      "details": "Request Priority Pass and confirm your card’s eligibility before travel.",
+      "source": "au",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "international"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o43",
+      "card": "ixigo",
+      "category": "Rewards",
+      "value": "5 pts",
+      "title": "Online & offline purchases",
+      "summary": "Each ₹200; monthly reward cap of 10,000 points.",
+      "details": "Fuel, rent, wallets and jewellery are excluded. UPI is RuPay-only; the comparison page has conflicting UPI rates, so no rate is assumed.",
+      "source": "ixigoCompare",
+      "code": "",
+      "expiry": "",
+      "flag": "UPI rate unclear",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o44",
+      "card": "ixigo",
+      "category": "Milestones",
+      "value": "5,000 pts",
+      "title": "Quarterly bonus",
+      "summary": "Reach ₹75,000 in calendar-quarter spending.",
+      "details": "Bonus points remain valid for two years, according to AU.",
+      "source": "au",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o45",
+      "card": "ixigo",
+      "category": "Welcome",
+      "value": "1,000 + 1,000",
+      "title": "Points & ixigo Money",
+      "summary": "Reward points plus ₹1,000 ixigo Money.",
+      "details": "First successful purchase within 30 days. ixigo Money validity is three months.",
+      "source": "ixigoOffers",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [
+        "ixigo"
+      ],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "o46",
+      "card": "ixigo",
+      "category": "Fuel",
+      "value": "1%",
+      "title": "Fuel surcharge relief",
+      "summary": "₹400–₹5,000 purchases; cap ₹250.",
+      "details": "ixigo lists the ceiling per month. Surcharge relief is separate from reward points.",
+      "source": "au",
+      "code": "",
+      "expiry": "",
+      "flag": "",
+      "regions": [
+        "domestic"
+      ],
+      "merchants": [],
+      "checked": "2026-10-02",
+      "kind": "benefit"
+    },
+    {
+      "id": "forex-regalia",
+      "card": "regalia",
+      "category": "Fees",
+      "value": "2%",
+      "title": "Foreign-currency transaction fee",
+      "summary": "Bank fee on foreign-currency purchases; applicable taxes are additional.",
+      "details": "This is a cost, not a reward. Network conversion rates and other applicable charges may affect the final amount. A foreign-currency purchase is different from paying an overseas merchant in INR; check the issuer’s separate conversion terms.",
+      "source": "regaliaFees",
+      "regions": [
+        "international"
+      ],
+      "merchants": [],
+      "kind": "fee",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "forex-pixel",
+      "card": "pixel",
+      "category": "Fees",
+      "value": "3.5%",
+      "title": "Foreign-currency transaction fee",
+      "summary": "Bank fee on foreign-currency purchases; applicable taxes are additional.",
+      "details": "This is a cost, not a reward. Network conversion rates and other applicable charges may affect the final amount. A foreign-currency purchase is different from paying an overseas merchant in INR; check the issuer’s separate conversion terms.",
+      "source": "pixelFees",
+      "regions": [
+        "international"
+      ],
+      "merchants": [],
+      "kind": "fee",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "forex-airtel",
+      "card": "airtel",
+      "category": "Fees",
+      "value": "3.5%",
+      "title": "Foreign-currency transaction fee",
+      "summary": "Bank fee on foreign-currency purchases; applicable taxes are additional.",
+      "details": "This is a cost, not a reward. Network conversion rates and other applicable charges may affect the final amount. A foreign-currency purchase is different from paying an overseas merchant in INR; check the issuer’s separate conversion terms.",
+      "source": "airtel",
+      "regions": [
+        "international"
+      ],
+      "merchants": [],
+      "kind": "fee",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "forex-myzone",
+      "card": "myzone",
+      "category": "Fees",
+      "value": "3.5%",
+      "title": "Foreign-currency transaction fee",
+      "summary": "Bank fee on foreign-currency purchases; applicable taxes are additional.",
+      "details": "This is a cost, not a reward. Network conversion rates and other applicable charges may affect the final amount. A foreign-currency purchase is different from paying an overseas merchant in INR; check the issuer’s separate conversion terms.",
+      "source": "myzone",
+      "regions": [
+        "international"
+      ],
+      "merchants": [],
+      "kind": "fee",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "overseas-millennia",
+      "card": "millennia",
+      "category": "Fees",
+      "value": "Check rate",
+      "title": "Confirm your overseas charges",
+      "summary": "The current Millennia forex fee has not been reliably verified in this guide.",
+      "details": "Check HDFC’s current fee schedule for your exact card before paying abroad. No overseas-specific reward or lounge entitlement is assumed here. Domestic benefits remain in Domestic mode.",
+      "flag": "Overseas terms need confirmation",
+      "source": "hdfcMITC",
+      "regions": [
+        "international"
+      ],
+      "merchants": [],
+      "kind": "notice",
+      "checked": "2026-10-02"
+    }
+  ]
+}
