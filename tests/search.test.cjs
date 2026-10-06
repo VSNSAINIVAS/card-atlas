@@ -75,3 +75,27 @@ test('punctuation and cash back wording do not break matching', () => {
     search('airport lounge access').map((o) => o.id),
   );
 });
+
+test('common lounge spelling mistakes find access in both regions', () => {
+  for (const region of ['domestic', 'international']) {
+    const expected = search('lounge access', { region }).map((o) => o.id);
+    assert.ok(expected.length > 0);
+    for (const spelling of [
+      'Longue',
+      'longues',
+      'lougne',
+      'lougnes',
+      'loungue',
+      'louge',
+    ]) {
+      assert.deepEqual(
+        search(spelling + ' access', { region }).map((o) => o.id),
+        expected,
+      );
+    }
+  }
+  assert.deepEqual(
+    search('airport longue access').map((o) => o.id),
+    ['o9', 'o30', 'o40'],
+  );
+});

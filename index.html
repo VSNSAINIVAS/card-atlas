@@ -27,8 +27,8 @@
         document.documentElement.dataset.theme = t;
       })();
     </script>
-    <link rel="stylesheet" href="styles.css?v=3" />
-    <script src="app.js?v=3" defer></script>
+    <link rel="stylesheet" href="styles.css?v=4" />
+    <script src="app.js?v=4" defer></script>
   </head>
   <body>
     <a href="#main" class="skip">Skip to content</a>
@@ -89,14 +89,62 @@
           <strong id="page-name">Overview</strong>
         </div>
         <div class="header-actions">
-          <label class="theme-label"
-            ><span aria-hidden="true">◐</span
-            ><select id="theme" aria-label="Appearance">
-              <option value="system">Device theme</option>
-              <option value="light">Light theme</option>
-              <option value="dark">Dark theme</option>
-            </select></label
-          ><button class="owner-button" data-edit>
+          <div class="theme-picker">
+            <button
+              id="theme"
+              class="theme-trigger"
+              aria-label="Appearance"
+              aria-haspopup="menu"
+              aria-expanded="false"
+              aria-controls="theme-menu"
+            >
+              <span aria-hidden="true">◐</span
+              ><span id="theme-value">Device theme</span
+              ><span aria-hidden="true">⌄</span>
+            </button>
+            <div
+              id="theme-menu"
+              class="theme-menu"
+              role="menu"
+              aria-label="Choose appearance"
+              hidden
+            >
+              <button
+                role="menuitemradio"
+                aria-checked="true"
+                data-theme-choice="system"
+                tabindex="-1"
+              >
+                <span
+                  ><strong>Device theme</strong
+                  ><small>Follow your device’s appearance</small></span
+                ><span class="theme-check" aria-hidden="true">✓</span>
+              </button>
+              <button
+                role="menuitemradio"
+                aria-checked="false"
+                data-theme-choice="light"
+                tabindex="-1"
+              >
+                <span
+                  ><strong>Light theme</strong
+                  ><small>A bright, clear workspace</small></span
+                ><span class="theme-check" aria-hidden="true">✓</span>
+              </button>
+              <button
+                role="menuitemradio"
+                aria-checked="false"
+                data-theme-choice="dark"
+                tabindex="-1"
+              >
+                <span
+                  ><strong>Dark theme</strong
+                  ><small>A softer view after hours</small></span
+                ><span class="theme-check" aria-hidden="true">✓</span>
+              </button>
+            </div>
+          </div>
+          <button class="owner-button" data-edit>
             Edit limits <span aria-hidden="true">↗</span></button
           ><span class="avatar header-avatar" aria-label="Nivas’s wallet"
             >NS</span

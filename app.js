@@ -196,6 +196,14 @@ const searchWords = (s) =>
       (w) =>
         ({
           lounges: 'lounge',
+          longue: 'lounge',
+          longues: 'lounge',
+          lougne: 'lounge',
+          lougnes: 'lounge',
+          loungue: 'lounge',
+          loungues: 'lounge',
+          louge: 'lounge',
+          louges: 'lounge',
           airports: 'airport',
           rewards: 'reward',
           cards: 'card',
@@ -483,22 +491,82 @@ function route() {
     window.scrollTo({ top: 0, behavior: 'instant' });
 }
 function setupTheme() {
-  const media = matchMedia('(prefers-color-scheme: dark)'),
-    select = $('#theme');
-  select.value = document.documentElement.dataset.theme || 'system';
+  const media = matchMedia('(prefers-color-scheme: dark)');
+  const trigger = $('#theme'),
+    menu = $('#theme-menu');
+  const choices = [...menu.querySelectorAll('[data-theme-choice]')];
+  let theme = document.documentElement.dataset.theme || 'system';
   const apply = () => {
-    const dark =
-      select.value === 'dark' || (select.value === 'system' && media.matches);
-    document.documentElement.dataset.theme = select.value;
+    const dark = theme === 'dark' || (theme === 'system' && media.matches);
+    document.documentElement.dataset.theme = theme;
     document.querySelector('meta[name="theme-color"]').content = dark
       ? '#101b23'
       : '#f6f7f9';
+    $('#theme-value').textContent = {
+      system: 'Device theme',
+      light: 'Light theme',
+      dark: 'Dark theme',
+    }[theme];
+    choices.forEach((choice) =>
+      choice.setAttribute(
+        'aria-checked',
+        String(choice.dataset.themeChoice === theme),
+      ),
+    );
   };
-  select.addEventListener('change', () => {
+  const close = (restoreFocus = false) => {
+    menu.hidden = true;
+    trigger.setAttribute('aria-expanded', 'false');
+    if (restoreFocus) trigger.focus();
+  };
+  const open = () => {
+    menu.hidden = false;
+    trigger.setAttribute('aria-expanded', 'true');
+    choices.find((choice) => choice.dataset.themeChoice === theme).focus();
+  };
+  trigger.addEventListener('click', () => (menu.hidden ? open() : close(true)));
+  trigger.addEventListener('keydown', (e) => {
+    if (['ArrowDown', 'ArrowUp'].includes(e.key)) {
+      e.preventDefault();
+      open();
+    }
+  });
+  menu.addEventListener('click', (e) => {
+    const choice = e.target.closest('[data-theme-choice]');
+    if (!choice) return;
+    theme = choice.dataset.themeChoice;
     try {
-      localStorage.setItem('atlas-theme', select.value);
+      localStorage.setItem('atlas-theme', theme);
     } catch {}
     apply();
+    close(true);
+  });
+  menu.addEventListener('keydown', (e) => {
+    const index = choices.indexOf(document.activeElement);
+    if (['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(e.key)) {
+      e.preventDefault();
+      const next =
+        e.key === 'Home'
+          ? 0
+          : e.key === 'End'
+            ? choices.length - 1
+            : (index + (e.key === 'ArrowDown' ? 1 : -1) + choices.length) %
+              choices.length;
+      choices[next].focus();
+    } else if (e.key === 'Escape') {
+      e.preventDefault();
+      close(true);
+    } else if (e.key === 'Tab') {
+      e.preventDefault();
+      close(true);
+      if (!e.shiftKey) $('.owner-button').focus();
+    }
+  });
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.theme-picker')) close();
+  });
+  document.addEventListener('focusin', (e) => {
+    if (!e.target.closest('.theme-picker')) close();
   });
   if (media.addEventListener) media.addEventListener('change', apply);
   else if (media.addListener) media.addListener(apply);

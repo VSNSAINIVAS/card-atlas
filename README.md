@@ -6,10 +6,10 @@ A responsive static wallet for six credit cards and four shared/individual limit
 
 - **Overview** brings together the wallet total, six card designs and the benefit explorer. **My cards** groups results by card.
 - **Lounges** is a dedicated view of recorded domestic and international lounge benefits, including railway access. Visit allowances, spending conditions, eligibility notices and official sources stay attached to each benefit. This is a card-benefit guide, not an airport/lounge-location directory.
-- **Search** works across the wallet in the selected region. Starting a new nonempty search clears the card, merchant, category and offer-type filters so an earlier selection cannot silently hide results. You can apply those filters again after searching. In the Lounges view, search stays within lounge benefits. Singular/plural terms, punctuation, “cash back” and “airport lounge access” are supported. Press `/` to focus search.
+- **Search** works across the wallet in the selected region. Starting a new nonempty search clears the card, merchant, category and offer-type filters so an earlier selection cannot silently hide results. You can apply those filters again after searching. In the Lounges view, search stays within lounge benefits. Singular/plural terms, punctuation, “cash back”, “airport lounge access” and common lounge spelling mistakes such as “longue access” are supported. Press `/` to focus search.
 - **Domestic / International** separates India/everyday benefits from verified overseas perks and costs. Changing region clears merchant/category/search/type filters and keeps the selected card. The Lounges view keeps its lounge category.
 - **Merchant** or a popular merchant button shows only directly linked benefits. An exact merchant search such as Swiggy uses the same mapping. Multi-brand cashback becomes a merchant-specific title while retaining the shared cap.
-- **Theme → Device** follows the device’s light/dark appearance. Light/Dark overrides are stored only on that device.
+- **Theme → Device** follows the device’s light/dark appearance. Light/Dark overrides are stored only on that device. The appearance menu uses readable theme-aware colors and supports arrow keys, Home/End, Enter and Escape.
 - **Credit limits** counts four shared/individual pools once. **Sources & coverage** explains verification dates and known uncertainties. Conditions expand inline; full details open in a keyboard-accessible dialog.
 
 ## Check UI changes
