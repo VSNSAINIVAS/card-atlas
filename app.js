@@ -462,7 +462,7 @@ function route() {
     $(`#${id}-view`).hidden =
       id !== (['cards', 'lounges'].includes(view) ? 'offers' : view);
   document.querySelectorAll('.nav-link').forEach((a) => {
-    const active = a.hash === '#' + view;
+    const active = a.hash === '#' + (view === 'lounges' ? 'offers' : view);
     a.classList.toggle('active', active);
     active
       ? a.setAttribute('aria-current', 'page')

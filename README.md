@@ -5,7 +5,7 @@ A responsive static wallet for six credit cards and four shared/individual limit
 ## Browse
 
 - **Overview** brings together the wallet total, six card designs and the benefit explorer. **My cards** groups results by card.
-- **Lounges** is a dedicated view of recorded domestic and international lounge benefits, including railway access. Visit allowances, spending conditions, eligibility notices and official sources stay attached to each benefit. This is a card-benefit guide, not an airport/lounge-location directory.
+- **Find lounge access** on Overview opens a dedicated view of recorded domestic and international lounge benefits, including railway access. Visit allowances, spending conditions, eligibility notices and official sources stay attached to each benefit. This is a card-benefit guide, not an airport/lounge-location directory.
 - **Search** works across the wallet in the selected region. Starting a new nonempty search clears the card, merchant, category and offer-type filters so an earlier selection cannot silently hide results. You can apply those filters again after searching. In the Lounges view, search stays within lounge benefits. Singular/plural terms, punctuation, “cash back”, “airport lounge access” and common lounge spelling mistakes such as “longue access” are supported. Press `/` to focus search.
 - **Domestic / International** separates India/everyday benefits from verified overseas perks and costs. Changing region clears merchant/category/search/type filters and keeps the selected card. The Lounges view keeps its lounge category.
 - **Merchant** or a popular merchant button shows only directly linked benefits. An exact merchant search such as Swiggy uses the same mapping. Multi-brand cashback becomes a merchant-specific title while retaining the shared cap.
@@ -21,6 +21,8 @@ python3 validate.py
 node --check app.js
 node --test tests/search.test.cjs
 ```
+
+The sidebar contains Overview, My cards, Credit limits and Sources & coverage. Lounge benefits remain accessible through search, category filters and the Overview lounge-access link.
 
 Browser regression checklist: select Swiggy then search Lounges; search airport lounge access; open Lounges and toggle both regions; exercise all six card filters and grouped results; check merchant-specific caps, dated/flagged results, empty-state reset, offer details and source links; inspect light/dark and narrow mobile layouts. Offer terms and saved limits must remain unchanged during a visual refresh.
 
